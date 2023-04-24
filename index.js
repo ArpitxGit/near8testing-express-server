@@ -14,11 +14,6 @@ app.use(
   })
 );
 
-// app.options("*", cors());
-// app.use(cors());
-//require("./startup/db"); // db connection
-// require("./startup/routes")(app); // routes
-
 app.use("/user", user);
 app.use("/userstr", usrstr);
 
